@@ -15,19 +15,28 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="{% url 'resume:home' %}"
+            >Home</a
+          >
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% url 'resume:about' %}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Projects</a>
+          <a class="nav-link" href="{% url 'resume:projects' %}">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Experience</a>
+          <a class="nav-link" href="{% url 'resume:experience' %}"
+            >Experience</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Certificates</a>
+          <a class="nav-link" href="{% url 'resume:certificates' %}"
+            >Certificates</a
+          >
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/">Contact</a>
