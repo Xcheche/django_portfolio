@@ -85,3 +85,15 @@ experience */
     font-size: 18px;
     color: #28a745;
 }
+
+.form-container{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+footer a{
+    text-decoration: none;
+}
+
+
