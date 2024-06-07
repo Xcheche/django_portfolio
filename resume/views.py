@@ -68,3 +68,7 @@ def experience(request):
 
 def certificates(request):
     return render(request, "certificates.html")
+
+
+def contact(request):
+    return render(request, "contact.html")
